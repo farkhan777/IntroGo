@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	foo()
 	bar("Farkhan")
 	fmt.Println(woo())
@@ -13,11 +13,11 @@ func main()  {
 	fmt.Println(sure)
 }
 
-func foo()  {
+func foo() {
 	fmt.Println("Hello from foo")
 }
 
-func bar(s string)  {
+func bar(s string) {
 	fmt.Println("Hello, ", s)
 }
 

@@ -2,16 +2,17 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	//numbs := []int{2, 3, 4, 5 ,6, 7, 8, 9}
 	//result := sum(numbs)
 	// or use
 	//numbs := []int{2, 3, 4, 5 ,6, 7, 8, 9}
 	//result := sum(numbs...)
 	// or use
-	result := sum(2, 3, 4, 5 ,6, 7, 8, 9)
+	result := sum(2, 3, 4, 5, 6, 7, 8, 9)
 	fmt.Println("The total is", result)
 }
+
 // func sum(numbers []int) int {}
 
 // This is using variadic parameter (numbers ...int)
