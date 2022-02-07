@@ -7,6 +7,7 @@ func main() {
 
 	go func() {
 		c <- 45
+		// you can use only one
 		c <- 47
 	}()
 
