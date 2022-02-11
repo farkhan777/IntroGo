@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	defer foo()
 	bar()
+	goo()
 }
 
 func foo() {
@@ -13,4 +14,8 @@ func foo() {
 
 func bar() {
 	fmt.Println("This is bar.")
+}
+
+func goo() {
+	fmt.Println("This is goo.")
 }
