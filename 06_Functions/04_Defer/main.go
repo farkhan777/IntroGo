@@ -6,6 +6,10 @@ func main() {
 	defer foo()
 	bar()
 	goo()
+
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
 }
 
 func foo() {
