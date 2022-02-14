@@ -29,3 +29,11 @@ func sqrt(f float64) (float64, error) {
 	}
 	return 42, nil
 }
+
+// see use of structs with error type in standard library:
+//
+// http://golang.org/pkg/net/#OpError
+// http://golang.org/src/pkg/net/dial.go
+// http://golang.org/src/pkg/net/net.go
+//
+// http://golang.org/src/pkg/encoding/json/decode.go
