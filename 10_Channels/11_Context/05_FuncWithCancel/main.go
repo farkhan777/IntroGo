@@ -17,6 +17,7 @@ func main() {
 	}
 }
 
+// Func
 func gen(ctx context.Context) <-chan int {
 	dst := make(chan int)
 	n := 1
