@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main()  {
+        // declaring variable
 	x := 42
 	y := "James Bond"
 	z := true
